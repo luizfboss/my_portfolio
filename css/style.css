@@ -9982,14 +9982,9 @@ h6,
 } 
 
 .project-name{
-  color: white;
+  color: black;
   font-size: 2em;
 }
-
-#project-btn{
-  background-color: rgb(0, 0, 0, 0.2);
-}
-
 
 .purple{
   background-color: var(--purple);
