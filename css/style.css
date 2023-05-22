@@ -9924,28 +9924,6 @@ h6,
   transition: 2s;
 }
 
-.portfolio-item .portfolio-btn {
-  position: absolute;
-  width: 0;
-  height: 0;
-  top: 50%;
-  left: 50%;
-  border-radius: 4px;
-  opacity: 0;
-  transition: .5s;
-}
-
-.portfolio-item:hover .portfolio-btn {
-  opacity: 1;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  font-size: 1.5em;
-}
-
-
-
 /* Additional CSS */
 #arrow-down{
   text-decoration: none;
@@ -10014,4 +9992,155 @@ h6,
 }
 .dark-orange{
   background-color: var(--dark-orange);
+}
+
+
+
+#portfolio {
+  margin-bottom: 100px;
+}
+
+.portfolio-item{
+  display: inline-flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  margin-bottom: 150px;
+}
+
+.portfolio-img-container{
+  width: 40%;
+}
+
+.portfolio-content{
+  margin-left: 50px;
+  width:314px;
+  height:132px;
+}
+
+.info-btn{
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 7px;
+  background-color: white;
+}
+.info-btn a {
+  color: black;
+}
+.info-btn:hover {
+  background-color: black;
+  transition-duration: 0.3s;
+}
+.info-btn:hover a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* Language Tags */
+.cplusplus {
+  border-radius: 50px;
+  border: 2px solid purple;
+  background-color: purple;
+  color: white;
+  font-size: 18px;
+}
+.python {
+  border-radius: 50px;
+  border: 2px solid var(--blue);
+  background-color: var(--blue);
+  color: white;
+  font-size: 18px;
+}
+.javascript {
+  border-radius: 50px;
+  border: 2px solid var(--yellow); 
+  background-color: var(--yellow);
+  color: white;
+  font-size: 18px;
+}
+.html {
+  border-radius: 50px;
+  border: 2px solid var(--dark-orange); 
+  color: white;
+  background-color: var(--dark-orange);
+  font-size: 18px;
+}
+.css {
+  border-radius: 50px;
+  border: 2px solid var(--primary); 
+  color: white;
+  background-color: var(--primary);
+  font-size: 18px;
+}
+.reactjs {
+  border-radius: 50px;
+  border: 2px solid var(--cyan); 
+  color: white;
+  background-color: var(--cyan);
+  font-size: 18px;
+}
+.bootstrap {
+  border-radius: 50px;
+  border: 2px solid var(--indigo); 
+  color: white;
+  background-color: var(--indigo);
+  font-size: 18px;
+}
+.json {
+  border-radius: 50px;
+  border: 2px solid var(--green); 
+  color: white;
+  background-color: var(--green);
+  font-size: 18px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+  .portfolio-item{
+    flex-direction:column;
+    margin-bottom: 200px;
+  }
+  .portfolio-img-container{
+    width: 60%;
+    margin: auto;
+    border-right:none;
+  }
+  .portfolio-content{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+
+  }
+  .portfolio-content p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .portfolio-item{
+    flex-direction:column;
+    margin-bottom: 300px;
+  }
+  .portfolio-img-container{
+    width: 60%;
+    margin: auto;
+    border-right:none;
+  }
+  .portfolio-content{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+
+  }
+  .portfolio-content p {
+    font-size: 15px;
+  }
+
+  .info-btn {
+    margin-top: 5px;
+  }
 }

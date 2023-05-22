@@ -22,6 +22,9 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
+    <!-- On-Scroll Sources -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -406,121 +409,200 @@
 
 
             <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item web-pages">
-                    <div class="position-relative overflow-hidden mb-2">
-                        
-                        <img class="img-fluid rounded w-100" src="img/meme-generator.jpg" alt="">
-                        <div id="project-btn" class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a class="project-name" href="https://github.com/luizfboss/ReactJS-meme-generator" target="_blank" data-lightbox="portfolio">
-                                Meme Generator
-                            </a>
+                <div data-aos="fade-right" class=" portfolio-item applications">
+                    <div class="portfolio-img-container">
+                        <img width="580px" class="img-fluid" src="img/meme-generator.jpg" alt="">
+                    </div>
+                    <div class="portfolio-content">
+                        <h2>Meme Generator</h2>
+                        <p>A functional meme generator in ReactJS. This is was my final project for the "Introduction to ReactJS" course I took.</p>
+                        <div class="more-info">
+                            <button class="info-btn"><a href="https://github.com/luizfboss/ReactJS-meme-generator" target="_blank">Check Repository!</a></button>
+                        </div>
+
+                        <br>
+
+                        <div class="lang-tags">
+                            <button disabled class="html">HTML</button>
+                            <button disabled class="css">CSS</button>
+                            <button disabled class="javascript">JavaScript</button>
+                            <button disabled class="reactjs">ReactJS</button>
                         </div>
                     </div>
-                </div>
+                </div> 
                 
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item web-pages">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/spotify.jpg" alt="">
-                        <div id="project-btn" class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a class="project-name" href="https://luizfboss.github.io/spotify/" data-lightbox="portfolio" target="_blank">
-                                Spotify Clone
-                            </a>
+                <div data-aos="fade-right" class=" portfolio-item applications">
+                    <div class="portfolio-img-container">
+                        <img class="img-fluid" src="img/spotify.jpg" alt="">
+                    </div>
+                    <div class="portfolio-content">
+                        <h2>Spotify Clone</h2>
+                        <p>A fully responsive Spotify Web Page clone developed using Bootstrap.</p>
+                        <div class="more-info">
+                            <button class="info-btn"><a href="https://github.com/luizfboss/spotify" target="_blank">Check Repository!</a></button>
+                            <button class="info-btn"><a href="https://luizfboss.github.io/spotify/" target="_blank">View Page</a></button>
+                        </div>
+
+                        <br>
+
+                        <div class="lang-tags">
+                            <button disabled class="html">HTML</button>
+                            <button disabled class="css">CSS</button>
+                            <button disabled class="bootstrap">Bootstrap</button>
                         </div>
                     </div>
-                </div>
+                </div> 
 
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item applications">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/web-scraper.jpg" alt="">
-                        <div id="project-btn" class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a class="project-name" href="https://github.com/luizfboss/js-web-scraper" data-lightbox="portfolio" target="_blank">
-                                Web Scraper
-                            </a>
+
+                <div data-aos="fade-right" class=" portfolio-item applications">
+                    <div class="portfolio-img-container">
+                        <img class="img-fluid" src="img/web-scraper.jpg" alt="">
+                    </div>
+                    <div class="portfolio-content">
+                        <h2>Web Scraper</h2>
+                        <p>A Web Scraper that gathers information from the internet, based on parameters. In this project, Headlines from sources of information (news) are gathered and displayed in the console.</p>
+                        <div class="more-info">
+                            <button class="info-btn"><a href="https://github.com/luizfboss/js-web-scraper" target="_blank">Check Repository!</a></button>
+                        </div>
+
+                        <br>
+
+                        <div class="lang-tags">
+                            <button disabled class="javascript">JavaScript</button>
+                            <button disabled class="json">JSON</button>
                         </div>
                     </div>
-                </div>
-                
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item applications">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/calculator.jpg" alt="">
-                        <div id="project-btn" class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a class="project-name" href="https://github.com/luizfboss/JS-Calculator"
-                            data-lightbox="portfolio">
-                            JS Calculator
-                        </a>
-                    </div>
-                    </div>
-                </div>
+                </div> 
 
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item game">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/memory-game.jpg" alt="">
-                        <div id="project-btn" class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a class="project-name" href="https://github.com/luizfboss/js-memory-game" data-lightbox="portfolio" target="_blank">
-                                Memory Game
-                            </a>
+
+                <div data-aos="fade-right" class=" portfolio-item applications">
+                    <div class="portfolio-img-container">
+                        <img class="img-fluid" src="img/calculator.jpg" alt="">
+                    </div>
+                    <div class="portfolio-content">
+                        <h2>JS Calculator</h2>
+                        <p>A fully functional calculator developed using JavaScript. This is my first project using JavaScript.</p>
+                        <div class="more-info">
+                            <button class="info-btn"><a href="https://github.com/luizfboss/JS-Calculator" target="_blank">Check Repository!</a></button>
+                            <button class="info-btn"><a href="https://luizfboss.github.io/JS-Calculator/" target="_blank">View Page</a></button>
+                        </div>
+
+                        <br>
+
+                        <div class="lang-tags">
+                            <button disabled class="html">HTML</button>
+                            <button disabled class="css">CSS</button>
+                            <button disabled class="javascript">JavaScript</button>
                         </div>
                     </div>
-                </div>
+                </div> 
 
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item applications">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/auto-email.jpg" alt="">
-                        <div id="project-btn" class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a class="project-name" href="https://github.com/luizfboss/Automated-Email-Sending" data-lightbox="portfolio" target="_blank">
-                                Automated Email Sending
-                            </a>
+                <div data-aos="fade-right" class=" portfolio-item applications">
+                    <div class="portfolio-img-container">
+                        <img class="img-fluid" src="img/auto-email.jpg" alt="">
+                    </div>
+                    <div class="portfolio-content">
+                        <h2>Automated Email Sender</h2>
+                        <p>A Python Project that Sends emails automatically and immediately. This project uses Pyautogui and PyperClip as the main packages, that allow the user to find the appropriate keys for the expected output.</p>
+                        <div class="more-info">
+                            <button class="info-btn"><a href="https://github.com/luizfboss/Automated-Email-Sending" target="_blank">Check Repository!</a></button>
+                        </div>
+
+                        <br>
+
+                        <div class="lang-tags">
+                            <button disabled class="python">Python</button>
                         </div>
                     </div>
+                </div> 
 
-                </div>
-                
-                
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item web-pages">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/finans.jpg" alt="">
-                        <div id="project-btn" class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a class="project-name" href="https://luizfboss.github.io/Finans/" data-lightbox="portfolio" target="_blank">
-                                Finans
-                            </a>
+
+                <div data-aos="fade-right" class=" portfolio-item applications">
+                    <div class="portfolio-img-container">
+                        <img class="img-fluid" src="img/finans.jpg" alt="">
+                    </div>
+                    <div class="portfolio-content">
+                        <h2>Finans</h2>
+                        <p>A responsive web page for a ficctional finance-related company, designed in Bootstrap.</p>
+                        <div class="more-info">
+                            <button class="info-btn"><a href="https://github.com/luizfboss/Finans" target="_blank">Check Repository!</a></button>
+                            <button class="info-btn"><a href="https://luizfboss.github.io/Finans/" target="_blank">View Page</a></button>
+                        </div>
+
+                        <br>
+
+                        <div class="lang-tags">
+                            <button disabled class="html">HTML</button>
+                            <button disabled class="css">CSS</button>
+                            <button disabled class="bootstrap">Bootstrap</button>
                         </div>
                     </div>
-                </div>
+                </div> 
 
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item web-pages">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/playstation.jpg" alt="">
-                        <div id="project-btn" class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a class="project-name" href="https://luizfboss.github.io/playstation-dualshock-interface/" data-lightbox="portfolio" target="_blank">
-                                DualShock Display
-                            </a>
+
+                <div data-aos="fade-right" class=" portfolio-item applications">
+                    <div class="portfolio-img-container">
+                        <img class="img-fluid" src="img/playstation.jpg" alt="">
+                    </div>
+                    <div class="portfolio-content">
+                        <h2>PlayStation DualShock Landing Page</h2>
+                        <p>A fully responsive landing page that works as a display of a new released product.</p>
+                        <div class="more-info">
+                            <button class="info-btn"><a href="https://github.com/luizfboss/playstation-dualshock-interface" target="_blank">Check Repository!</a></button>
+                            <button class="info-btn"><a href="https://luizfboss.github.io/playstation-dualshock-interface/" target="_blank">View Page</a></button>
+                        </div>
+
+                        <br>
+
+                        <div class="lang-tags">
+                            <button disabled class="html">HTML</button>
+                            <button disabled class="css">CSS</button>
                         </div>
                     </div>
-                </div>
+                </div> 
 
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item game">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/mosquitoe.png" alt="">
-                        <div id="project-btn" class="portfolio-btn d-flex align-items-center justify-content-center">
-                            <a class="project-name" href="https://github.com/luizfboss/Mosquitoes" data-lightbox="portfolio" target="_blank">
-                                Mosquitoe Game
-                            </a>
+
+                <div data-aos="fade-right" class=" portfolio-item applications">
+                    <div class="portfolio-img-container">
+                        <img class="img-fluid" src="img/mosquitoe.png" alt="">
+                    </div>
+                    <div class="portfolio-content">
+                        <h2>Mosquito Catcher</h2>
+                        <p>A mini game developed in JavaScript. This game randomly generates mosquitoes around the screen, and the player has to catch them as fast as possible.</p>
+                        <div class="more-info">
+                            <button class="info-btn"><a href="https://github.com/luizfboss/Mosquitoes" target="_blank">Check Repository!</a></button>
+                        </div>
+
+                        <br>
+
+                        <div class="lang-tags">
+                            <button disabled class="html">HTML</button>
+                            <button disabled class="css">CSS</button>
+                            <button disabled class="javascript">JavaScript</button>
                         </div>
                     </div>
-                </div>
+                </div> 
 
 
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item applications">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/alarm_clock.webp" alt="">
-                        <div id="project-btn" class="portfolio-btn d-flex align-items-center justify-content-center">
-                    <div class="position-relative overflow-hidden mb-2"> 
-                            <a class="project-name" href="https://github.com/luizfboss/cpp_alarm_clock" data-lightbox="portfolio" target="_blank">
-                                Alarm Clock
-                            </a>
+                <div data-aos="fade-right" class=" portfolio-item applications">
+                    <div class="portfolio-img-container">
+                        <img class="img-fluid" src="img/alarm_clock.webp" alt="">
+                    </div>
+                    <div class="portfolio-content">
+                        <h2>Alarm Clock</h2>
+                        <p>A functional alarm clock designed in C++. My first project in college.</p>
+                        <div class="more-info">
+                            <button class="info-btn">Check Repository!</button>
+                            <button class="info-btn">View Page</button>
+                        </div>
+
+                        <br>
+
+                        <div class="lang-tags">
+                            <button class="cplusplus">C++</button>
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
         </div>
     </div>
@@ -549,14 +631,15 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/typed/typed.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <!-- On Scroll Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
