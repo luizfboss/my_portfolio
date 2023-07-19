@@ -10094,7 +10094,13 @@ h6,
   background-color: var(--green);
   font-size: 18px;
 }
-
+.discordjs {
+  border-radius: 50px;
+  border: 2px solid var(--primary); 
+  color: white;
+  background-color: var(--primary);
+  font-size: 18px;
+}
 
 
 
