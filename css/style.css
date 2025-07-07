@@ -1,11 +1,5 @@
-/******* Bootstra
- Theming ********/
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6363,7 +6357,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #5271FE !important;
+  background-color: #09253D !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9533,7 +9527,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #5271FE !important;
+  color: #0F385C !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
